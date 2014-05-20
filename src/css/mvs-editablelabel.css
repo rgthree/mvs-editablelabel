@@ -1,0 +1,6 @@
+.editable-label {
+  width:97.5%; min-height:38px; padding:2px;
+  font-family:inherit; text-align:left; font-size:30px; color:#464646; overflow:visible; word-break:break-all; line-height:1.2; border:1px solid transparent;
+}
+.editable-label:focus {outline:none; border-color:#CCC; box-shadow:inset rgba(0,0,0,0.25) 0px 1px 3px, 0px 1px 0px rgba(255,255,255,0.5);}
+.editable-label[data-placeholder]:not(:focus):empty:before {content:attr(data-placeholder); color:#CCC; font-style:italic; font-weight:normal;}
